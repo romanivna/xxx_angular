@@ -1,0 +1,17 @@
+.main-field-wrapper {
+  width: 41rem;
+  height: 41rem;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 0px rgba(55, 50, 50, 0.75);
+}
+
+.cells {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+

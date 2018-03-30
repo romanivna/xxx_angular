@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+.level {
+
+}
+.level-value {
+  color: #bbd1aa;
+}
+
+.goal {
+
+}
+
+.goal-value {
+  color: goldenrod;
+}
+
+
+.score {
+
+}
+
+.gold {
+  font-size: 3rem;
+  text-align: center;
+  color: goldenrod;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cell-item {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(255, 0, 0, 0.3);
+  margin: 1rem;
+  background: url("./app/images/ring.png") repeat-y;
+  background-size: cover;
+  color: #fff;
+  /* border: 1px solid red; */
+
+
+}
+
+
+.cell-item:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  /* transform: rotateX(90deg); */
+  transition: all .25s ease-in;
+}
+

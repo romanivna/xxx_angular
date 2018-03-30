@@ -1,0 +1,41 @@
+
+.all-content {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/background.jpg") repeat-y;
+  background-size: cover;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+   /*background-color:rgba(255,255,255,0.5); */
+}
+.gandalf-part {
+  width: 35%;
+  height: 100vh;
+  /* background-color: rgba(0,0,0,0.3); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.main-filed {
+  width: 65%;
+  height: 100vh;
+  /* background-color:rgba(255,255,255,0.3); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotateRing {
+  transform: rotate(180deg);
+  transition: transform 0.7s linear;
+}
+
+
+.cell-item>.background img{
+  max-width: 100%;
+}
